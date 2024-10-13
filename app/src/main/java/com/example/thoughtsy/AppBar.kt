@@ -16,28 +16,6 @@ import androidx.compose.ui.unit.dp
 @Composable
 fun Appbarview(titles: String, BacktoHomeScreen: () -> Unit = {}) {
 
-//    val navicons: (@Composable () -> Unit)? =
-//        {
-//            if(!titles.contains("Thoughtsy")){
-//
-//
-//
-//                        IconButton(onClick = { BacktoHomeScreen() }) {
-//                            Icon(
-//                                imageVector = Icons.AutoMirrored.Filled.ArrowBack,
-//                                contentDescription = null,
-//                                tint = Color.White
-//                            )
-//
-//                        }
-//
-//
-//        }
-//            else {
-//                 null
-//            }
-//        }
-
 
     TopAppBar(
         title = {
